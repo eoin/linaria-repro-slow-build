@@ -15,9 +15,6 @@ module.exports = {
     publicPath: '/dist/',
     filename: '[name].js',
   },
-  optimization: {
-    noEmitOnErrors: true,
-  },
   plugins: [
     new MiniCssExtractPlugin({ filename: 'styles.css' }),
   ],
