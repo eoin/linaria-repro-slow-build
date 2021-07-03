@@ -2,7 +2,7 @@
 
 This repros an issue with Linaria and/or Webpack resulting in slow builds. Repro as follows:
 
-On main branch:
+On main (Webpack 4):
 
 ```
 $ yarn && time yarn build
